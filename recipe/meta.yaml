@@ -1,5 +1,5 @@
 {% set name = "reader" %}
-{% set version = "3.12" %}
+{% set version = "3.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/reader-{{ version }}.tar.gz
-  sha256: 5ee788184c0a9ee92be4d5e6dac4a4e964d1f99853e9f85d3ccdc495891790f8
+  sha256: 6e6376d382cb8b37377ac4790ae1dee0fcadab2376e0b1d44e8294f0c4a4c981
 
 build:
   noarch: python
