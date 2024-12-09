@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "reader" %}
-{% set version = "3.15" %}
+{% set version = "3.16" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/reader-{{ version }}.tar.gz
-  sha256: 39b7c04d3cbd8b1ed2523f073f23557f19b4c5b086a92bc82ed0daefdd67763a
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/reader-{{ version }}.tar.gz
+  sha256: 4371e414837654d798ae83b99e6bd8909c83a0a32d2e2549fa5d9e774affd7ad
 
 build:
   noarch: python
