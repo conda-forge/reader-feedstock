@@ -3,7 +3,7 @@ schema_version: 1
 context:
   python_min: 3.11
   name: reader
-  version: "3.21"
+  version: "3.22"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/reader-${{ version }}.tar.gz
-  sha256: d1603a5d318650a02b32e42bc3fbd5bc9639a0d241a9fc4f87af70639acaa2ce
+  sha256: ab4d8d864262ca895bc2130c99adac43a010c0f3c981ea67b3e453ce028ad90e
 
 build:
   number: 0
