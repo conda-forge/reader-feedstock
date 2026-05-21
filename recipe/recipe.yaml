@@ -30,8 +30,8 @@ requirements:
     - feedparser >=6
     - requests >=2.18
     - werkzeug >2
-    - iso8601 >=1
     - beautifulsoup4 >=4.5
+    - struclog
 
 tests:
   - python:
