@@ -31,7 +31,7 @@ requirements:
     - requests >=2.18
     - werkzeug >2
     - beautifulsoup4 >=4.5
-    - struclog
+    - structlog
 
 tests:
   - python:
